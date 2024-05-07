@@ -1,0 +1,36 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+canvas {
+  border: 2px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#controls {
+  margin-top: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #5bc0de; /* Light blue color */
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(76, 175, 80, 0.6); /* Neon color shadow */
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+button:hover {
+  background-color: #46b8da; /* Darker shade of light blue */
+  transform: translateY(-2px); /* Button lift effect */
+}
